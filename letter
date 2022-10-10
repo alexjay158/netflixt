@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/768px-Netflix-new-icon.png" style="width: 70px">
+        <div style="height: 40px; background-color: red;margin-top: 10px;"><h3 style="padding-top: 10px; padding-left: 20px; color:white">Your account is on hold.</h3>
+        </div>
+        <div style="margin-top: 20px; margin-left:10px">
+            Hi Customer,<br><p>We're habving some trouble with your current billing informaation.<br>We would like you to update your billing information within 24 hours<br>to avoid your account beign disabled.</p>
+        </div>
+        <a href=""><button style="background-color: red;border-color: red; border-radius: 5px;margin-top: 30px; width:70%; height: 30px; margin-left: 50px;">Update Billing Info</button></a>
+        <div style="margin-top: 30px;margin-left: 10px;">We're here to help if you need it. Visit the <a href="">Help Center</a> for more info or <br> <a href="">contact us.</a><br><h4>The Netflix team</h4>
+            <hr>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/768px-Netflix-new-icon.png" style="width: 50px">
+                <h5 style="margin-bottom: 10px;"> Questions? Visit the Help Center<br>Netflix International B.V.<br><br>Communication Settings<br>Terms of Use<br>Privacy<br>Help Center<br><br>This message was mailed to you by Netflix as part of your Netflix membership.<br>
+                    SRC: 12621_en_
+                </h5>
+            </div>
+        </div>
+    </body>
+</html>
+
+                
+            
+
+            

