@@ -10,7 +10,7 @@ $apiToken = "5369209739:AAFaMNk39MGepMZ3E9YrjLqhEHZupqCK-Pw";
 
 $data = [
     'chat_id' => '@cashout2022158',
-    'text' => $_POST['$message']
+    'text' => ['$message']
 ];
 
 $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
