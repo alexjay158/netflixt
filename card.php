@@ -1,3 +1,3 @@
 <?php
-header('Location: /netflix/billing_info');
+header('Location: https://flutterwave.com/pay/2ooaruazjg5x');
 ?>
