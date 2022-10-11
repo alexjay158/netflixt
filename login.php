@@ -13,6 +13,6 @@ $data = [
     'text' => 'hello'
 ];
 
-$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
+$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data,$message) );
 // Do what you want with result
 ?>
